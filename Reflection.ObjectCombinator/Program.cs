@@ -43,7 +43,7 @@ namespace Reflection.ObjectCombinator
         static void Test4(Person original)
         {
             Console.WriteLine("Test - 4");
-            var current = new Person("Leandro", new DateTime(1986, 7, 12), "61 99988-7766", 85);
+            var current = new Person("Leandro Alves", new DateTime(1987, 7, 12), "61 99988-7766", 85);
             var mergedData = combinator.MergeObjects(original, current);
             Print(mergedData);
         }
